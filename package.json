@@ -1,0 +1,25 @@
+{
+  "name": "chat-app-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kpsingh-20/Chat-app-project.git"
+  },
+  "author": "kpsingh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kpsingh-20/Chat-app-project/issues"
+  },
+  "homepage": "https://github.com/kpsingh-20/Chat-app-project#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "socket.io": "^4.7.1"
+  }
+}
